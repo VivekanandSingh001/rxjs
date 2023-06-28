@@ -8,6 +8,9 @@ import { RouterModule } from '@angular/router';
 import { PromiseComponent } from './promise/promise.component';
 import { AllComponent } from './observable/all/all.component';
 import { FromeventComponent } from './observable/fromevent/fromevent.component';
+import { IntervalComponent } from './observable/interval/interval.component';
+import { OfFromComponent } from './observable/of-from/of-from.component';
+import { ToArrayComponent } from './observable/to-array/to-array.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +18,10 @@ import { FromeventComponent } from './observable/fromevent/fromevent.component';
     ObservableComponent,
     PromiseComponent,
     AllComponent,
-    FromeventComponent
+    FromeventComponent,
+    IntervalComponent,
+    OfFromComponent,
+    ToArrayComponent
   ],
   imports: [
     BrowserModule,

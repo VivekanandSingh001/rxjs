@@ -1,0 +1,20 @@
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: #eaeaea;
+    border: 1px solid #ccc;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  .forflex{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
