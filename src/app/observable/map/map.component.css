@@ -1,0 +1,22 @@
+.box {
+    width: 150px;
+    height: 150px;
+    background-color: #eaeaea;
+    border: 1px solid #ccc;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin: 25px -5px;
+    justify-content: center;
+  }
+.forFlex{
+    display: flex;
+    flex-direction: row;
+}
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  .forStrong{
+    margin: 0px 10px;
+  }
