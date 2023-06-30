@@ -14,6 +14,10 @@ import { ToArrayComponent } from './observable/to-array/to-array.component';
 import { MapComponent } from './observable/map/map.component';
 import { FilterComponent } from './observable/filter/filter.component';
 import { TapComponent } from './observable/tap/tap.component';
+import { TakeComponent } from './observable/take/take.component';
+import { RetryComponent } from './observable/retry/retry.component';
+import { HttpClientModule } from '@angular/common/http';
+import { DebounceComponent } from './observable/debounce/debounce.component';
 
 @NgModule({
   declarations: [
@@ -27,12 +31,16 @@ import { TapComponent } from './observable/tap/tap.component';
     ToArrayComponent,
     MapComponent,
     FilterComponent,
-    TapComponent
+    TapComponent,
+    TakeComponent,
+    RetryComponent,
+    DebounceComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    RouterModule
+    RouterModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,0 +1,21 @@
+<body>
+  <button id="fetchButton" (click)="fetchDetails()">Fetch Details</button>
+    <table *ngFor="let item of array1">
+        <thead>
+            <tr >
+                <th>UserID</th>
+                <th>Id</th>
+                <th>Title</th>
+                <th>Body</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let item of array1">
+                <td>{{item.userId}}</td>
+                <td>{{item.id}}</td>
+                <td>{{item.title}}</td>
+                <td>{{item.body}}</td>
+            </tr>
+        </tbody>
+    </table>
+</body>

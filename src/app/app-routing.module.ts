@@ -10,6 +10,9 @@ import { ToArrayComponent } from './observable/to-array/to-array.component';
 import { MapComponent } from './observable/map/map.component';
 import { FilterComponent } from './observable/filter/filter.component';
 import { TapComponent } from './observable/tap/tap.component';
+import { TakeComponent } from './observable/take/take.component';
+import { RetryComponent } from './observable/retry/retry.component';
+import { DebounceComponent } from './observable/debounce/debounce.component';
 
 const routes: Routes = [
   {path:'observable',component:ObservableComponent,children:[
@@ -20,7 +23,10 @@ const routes: Routes = [
     {path:'toArray',component:ToArrayComponent},
     {path:'map',component:MapComponent},
     {path:'tap',component:TapComponent},
+    {path:'take',component:TakeComponent},
     {path:'filter',component:FilterComponent},
+    {path:'retry',component:RetryComponent},
+    {path:'debounce',component:DebounceComponent},
     {path:'**',component:AllComponent}
   ]},
   {path:'promise',component:PromiseComponent},
